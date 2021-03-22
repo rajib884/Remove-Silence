@@ -1,0 +1,20 @@
+{
+    "CRF": 23,
+    "Encoder": "x264",
+    "Font": "Calibri",
+    "FontSize": 11,
+    "Format": ".mkv",
+    "Grab": false,
+    "OnFinish": "Play Sound",
+    "OnTop": false,
+    "Preset": "Medium",
+    "Re-encode": false,
+    "RememberOptions": true,
+    "Splitter": "Fast",
+    "Theme": "SystemDefaultForReal",
+    "TitleBar": true,
+    "excess_duration": "0.5",
+    "min_silence": "10",
+    "minimum_interval_gap": "0.3",
+    "silence_threshold": "-35"
+}
