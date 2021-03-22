@@ -1,4 +1,12 @@
 .idea/
+*.mp4
+*.mkv
+*.m4v
+*.exe
+*.log
+old files/
+test_codes.py
+setup.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
