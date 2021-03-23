@@ -5,7 +5,7 @@
 *.exe
 *.log
 old files/
-test_codes.py
+pysimplegui_test.py
 setup.py
 
 # Byte-compiled / optimized / DLL files
@@ -133,3 +133,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+config.json
