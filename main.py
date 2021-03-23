@@ -1054,7 +1054,7 @@ def close(status):
     exit()
 
 
-p = None
+p = subprocess.Popen(["echo"])
 run = False
 config = {}
 stderr = []
