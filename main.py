@@ -273,7 +273,7 @@ def main_window():
               [sg.Text('Input', size=(6, 1)),
                sg.Input(key='input_filename', disabled=True, text_color='black'),
                sg.Input(key='input', visible=False, enable_events=True),
-               sg.FilesBrowse(key='FileBrowse', size=(12, 1.1))],
+               sg.FileBrowse(key='FileBrowse', size=(12, 1.1))],
               [sg.Text('Output', size=(6, 1)),
                sg.Input(key='output_filename', disabled=True, text_color='black'),
                sg.Input(key='output', visible=False, enable_events=True),
@@ -766,7 +766,7 @@ def process_silence(values):
                         interval.get("method") != "-c:v copy" and next_interval.get("method") != "-c:v copy"):
                     # merge these two intervals
                     finished = False
-                    result.append({"start": interval["start"], "end": next_interval["end"]})
+                    result.append({"start": interval["start"], "end": next_interval["end"], "method": interval.get("method")})
                     index += 1  # jump the next one
                 else:
                     result.append(interval)
